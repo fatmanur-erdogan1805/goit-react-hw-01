@@ -1,15 +1,16 @@
 .transactionTable {
-  width: 95%;
-  margin: 30px auto;
+  width: 40em;
+  margin: 15px auto;
   border-collapse: collapse;
   text-align: center;
   font-family: Arial, sans-serif;
   color: black;
+  font-size: 15px;
 }
 
 .transactionTable thead {
   background-color: #1d1818;
-  color:whitesmoke;
+  color: whitesmoke;
   font-weight: bold;
 }
 

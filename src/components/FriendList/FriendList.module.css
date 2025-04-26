@@ -1,31 +1,29 @@
 .list {
   display: flex;
-  justify-content:center;
-  gap: 12px;
-  
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 20px;
 }
 
 .item {
   width: 50px;
-  height: 120px;
+  height: 95px;
   background-color: white;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 16px;
+  padding: 18px; border: 2px solid black;
   border-radius: 8px;
-  border: 2px solid black;
+ 
+  
+  
 }
 
-.item:hover{
-   box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff; 
+.item:hover {
+  box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
 }
 
 .avatar {
-  margin: 2px auto;
-  padding: 3px;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 .name {
@@ -37,8 +35,6 @@
 
 .status {
   margin: 5px 0;
-  padding-left: 5px;
-  padding-right: 5px;
   font-size: 14px;
   font-weight: 400;
 }
