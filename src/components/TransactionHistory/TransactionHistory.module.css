@@ -8,6 +8,12 @@
   font-size: 15px;
 }
 
+
+
+.transactionTable tr :hover {
+  background-color: lightblue;
+}
+
 .transactionTable thead {
   background-color: #1d1818;
   color: whitesmoke;
@@ -22,4 +28,5 @@
 
 .transactionTable tr:nth-child(even) {
   background-color: rgb(218, 212, 212);
+
 }

@@ -18,7 +18,7 @@
 }
 
 .item:hover {
-  box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+  box-shadow: 8px 8px 16px pink, -8px -8px 16px ;
 }
 
 .avatar {

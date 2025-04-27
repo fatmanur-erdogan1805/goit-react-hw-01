@@ -1,6 +1,5 @@
 .profile {
   width: 300px;
- 
   margin: 36px auto;
   border: 1px solid #000000;
   border-radius: 10px;
@@ -11,10 +10,17 @@
   
 }
 
+ .profile :hover {
+  background-color: pink;
+  
+
+}
+
 .description {
   text-align: center;
   padding: 20px;
   background-color:#f0f0f0 ;
+  
   
 }
 
@@ -25,6 +31,7 @@
   margin-bottom: 1px;
   object-fit: cover;
   background-color: #000000;
+  pointer-events: none;
 }
 
 .name {
@@ -51,8 +58,8 @@
   padding: 0;
   list-style: none;
   
-  
 }
+
 
 .stats li {
   flex: 1px;
@@ -63,12 +70,14 @@
   border-right: 1px solid #000000;
 }
 
-
-
 .label {
   font-size: 17px;
   font-weight: 470;
   color: #000000;
+}
+
+.label:hover {
+  font-size: 20px;
 }
 
 .quantity {
